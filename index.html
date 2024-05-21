@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>C++ Forum</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courier+Prime">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/cpp.png" alt="C++ Logo">
+            <h1>C++ Forum</h1>
+            <div>
+                <p id="description"></p>
+            </div>
+        </header>
+        <main>
+            <div class="forum-post">
+                <h2 class="post-title">What is the difference between float and double?</h2>
+                <h3 class="post-author">Dave E.</h3>
+                <p>Hello, I wanted to know what is the difference between the float and double types? I know they both store decimal values, but why whould I choose one over the other?</p>
+                <div class="post-replies">
+                    <h4 class="reply-author">Sam S.</h4>
+                    <p>Floats are single percision, doubles are double percision. Duh</p>
+                    <h4 class="reply-author">Dale F.</h4>
+                    <p>Floats are 32 bits, whereas doubles are 64 bits; use floats when you want to save space, use doubles when you want more precise decimal numbers.</p>
+                </div>
+            </div>
+            <div class="forum-post">
+                <h2 class="post-title">Structs are pointless</h2>
+                <h3 class="post-author">Mike E.</h3>
+                <p>There is no reason to use structs since classes exist. Everything a struct does, a class does.</p>
+                <div class="post-replies">
+                    <h4 class="reply-author">Patty Z.</h4>
+                    <p>The only difference is the default visibility. Struct members are public, class members are private. Besides that, I agree.</p>
+                    <h4 class="reply-author">Tom F.</h4>
+                    <p>Eh, I personally use structs when I'm only dealing with variables. If I'm using methods as well, then yeah, I'll use classes.</p>
+                </div>
+            </div>
+            <div class="forum-post">
+                <h2 class="post-title">Why Enums?</h2>
+                <h3 class="post-author">Frank G.</h3>
+                <p>In what situation whould I use Enums over normal variables like ints or strings?</p>
+                <div class="post-replies">
+                    <h4 class="reply-author">Dominic C.</h4>
+                    <p>Enums have the following advantages: </p>
+                    <ul>
+                        <li>Compared to using standalone int variables, enums group all names under a single namespace</li>
+                        <li>Unlike strings, enums can be used in switch statements</li>
+                        <li>Enums are good for saving space, as there is no need to make multiple variables (which can be a problem when using strings)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="forum-post">
+                <h2 class="post-title">Primitive types sizes table</h2>
+                <h3 class="post-author">Will Q.</h3>
+                <p>I thought I would make a table to show the different primive types and their sizes (in bytes). Here it is.</p>
+                <table id="types-table">
+                    <tr>
+                        <th>Types</th>
+                        <th>Size (in bytes)</th>
+                    </tr>
+                    <tr>
+                        <td>short</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>int</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>long long</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>char</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>bool</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>float</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>double</td>
+                        <td>8</td>
+                    </tr>
+                </table>
+                <div class="post-replies">
+                    <h4 class="reply-author">Ulysses T.</h4>
+                    <p>Thanks, very helpful!</p>
+                </div>
+                <div class="post-replies">
+                    <h4 class="reply-author">Mary L.</h4>
+                    <p>Lol I don't need a table, I memorize all of them</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="mailto:carted92@gmatc.matc.edu">Email Site Admin</a>
+            <script src="js/scripts.js"></script>
+        </footer>
+    </body>
+</html>

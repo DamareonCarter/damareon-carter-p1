@@ -1,0 +1,69 @@
+body
+{
+    font-family: 'Courier Prime', sans-serif;
+    color: black;
+    background-color: #fff;
+}
+
+body header
+{
+    text-align: center;
+}
+
+body header img
+{
+    width: 100px;
+    height: 100px;
+}
+
+body header h1
+{
+    color: cyan;
+}
+
+body header div
+{
+    font-style: italic;
+}
+
+.forum-post
+{
+    background-color: #f0f0f0;
+    outline: double 1px black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.post-title
+{
+    text-decoration: underline;
+    background-color: #e0e0e0;
+}
+
+.post-author
+{
+    text-align: right;
+}
+
+.post-replies
+{
+    padding-left: 1%;
+}
+
+.post-replies p
+{
+    padding-left: 1%;
+}
+
+#types-table tr
+{
+    outline: double 1px black;
+    text-align: center;
+}
+
+footer
+{
+    text-align: right;
+    background-color: gray;
+    padding-bottom: 10%;
+}
